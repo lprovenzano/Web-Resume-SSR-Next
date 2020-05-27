@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nvar BadgeSkill = function BadgeSkill(_ref) {\n  var skill = _ref.skill;\n  return __jsx(\"li\", {\n    className: \"list-inline-item\"\n  }, __jsx(\"span\", {\n    className: \"badge badge-light\"\n  }, skill));\n};\n\nexport default BadgeSkill;","map":null,"metadata":{},"sourceType":"module"}

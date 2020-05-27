@@ -12,12 +12,7 @@ const Profile = () => {
       iconclass: "fab fa-github-alt fa-fw",
       link: "http://github.com/lprovenzano",
       text: "lprovenzano"
-    },
-    {
-      iconclass: "far fa-file",
-      link:  "#",
-      text: "Resume (PDF)"
-    },
+    }
   
   ];
 

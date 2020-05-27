@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderPage from "../component/headerpage";
 import Profile from "../component/profile";
 import Summary from "../component/summary";
 import Experience from "../component/experience";
@@ -131,7 +130,6 @@ const otherSkills = [
 const Index = () => {
   return (
     <>
-      <HeaderPage title="Luca Provenzano | .NET Developer"></HeaderPage>
       <article className="resume-wrapper text-center position-relative">
         <div className="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
           <Profile />
@@ -238,7 +236,7 @@ const Index = () => {
           </div>
         </div>
       </article>
-      <footer class="footer text-center pt-2 pb-5">
+      <footer className="footer text-center pt-2 pb-5">
         <small>Crafted in Buenos Aires, Argentina.</small>
     </footer>
     </>
